@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "img": "https://img.freepik.com/free-photo/online-ticket-booking_53876-167150.jpg?w=740&t=st=1664544206~exp=1664544806~hmac=d01a3b5c212106535578cd9249a75da86957d7c6047940d37d96c7fbffa50954",
+        "names": "Default"
+    },
+    {
+        "id": 2,
+        "img": "https://img.freepik.com/free-photo/aerial-view-business-team_53876-124515.jpg?w=740&t=st=1664544630~exp=1664545230~hmac=aca65aff5c829067d3ac23c716243859c0fa0f40709143dce7e6efa1bdc2ca6a",
+        "names": "Mobile apps"
+    },
+    {
+        "id": 3,
+        "img": "https://as1.ftcdn.net/v2/jpg/02/23/02/16/1000_F_223021652_Wd6E2uwjhoqc4CnmdzgAp0QeMqQlum2H.jpg",
+        "names": "Agency"
+    },
+    {
+        "id": 4,
+        "img": "https://as1.ftcdn.net/v2/jpg/02/59/35/12/1000_F_259351286_h3IbWmHWhtDZFWjKWoI6s7SXqtfRAcEh.jpg",
+        "names": "Portfolio"
+    },
+    {
+        "id": 5,
+        "img": "https://as1.ftcdn.net/v2/jpg/03/52/61/26/1000_F_352612638_IQpuCdliAaNufTo7zFEv56gM8R0g60jF.jpg",
+        "names": "Personal"
+    },
+    {
+        "id": 6,
+        "img": "https://as1.ftcdn.net/v2/jpg/03/82/97/16/1000_F_382971610_oDq2yBN5p3tm2etm2YkdSaAFjCX06N9k.jpg",
+        "names": "Onine course"
+    }
+]
