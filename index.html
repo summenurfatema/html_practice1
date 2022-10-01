@@ -12,6 +12,8 @@
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Oxygen&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css" rel="stylesheet" type="text/css" />
+
     <title>project_innovation</title>
 
     <style>
@@ -36,13 +38,38 @@
         <!-- nav -->
         <div class="font-semibold text-xl mt-16 text-white">
             <a class="m-2" href="">Home <i class="fa-solid fa-angle-down"></i></a>
-            <a class="m-2" href="">Page <i class="fa-solid fa-angle-down"></i></a>
+            <div class="dropdown dropdown-hover">
+                <label tabindex="0" class="bg-purple-500 m-1">Pages <i class="fa-solid fa-angle-down"></i></label>
+                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Item 1</a></li>
+                    <li><a>Item 2</a></li>
+                </ul>
+            </div>
             <a class="m-2" href="">Section <i class="fa-solid fa-angle-down"></i></a>
             <a class="m-2" href="">Docs <i class="fa-solid fa-angle-down"></i></a>
             <a class="m-2" href="">Icon <i class="fa-solid fa-angle-down"></i></a>
             <a class="bg-yellow-400 text-black p-3 rounded-xl" href=""> <i class="fa-solid fa-cart-shopping py-5"></i>
                 Buy
                 now</a>
+            <div class="dropdown dropdown-end hidden">
+                <label tabindex="0" class="btn btn-ghost btn-circle avatar btn-lg-hidden">
+                    <div class="w-10 rounded-full">
+                        <img src="https://placeimg.com/80/80/people" />
+                    </div>
+                </label>
+                <ul tabindex="0"
+                    class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+                    <li>
+                        <a class="justify-between">
+                            Profile
+                            <span class="badge">New</span>
+                        </a>
+                    </li>
+                    <li><a>Settings</a></li>
+                    <li><a>Logout</a></li>
+                </ul>
+            </div>
+        </div>
         </div>
     </nav>
     <!-- Nav section end -->
@@ -88,6 +115,27 @@
 
     </section>
     <!-- End of landing page -->
+    <!-- Start of QR section -->
+    <section class="flex my-10">
+        <div class="bg-purple-500 w-78 p-3 mr-1">
+            <h2 class="text-3xl font-semibold text-white text-center">Try a live demo from your smartphone</h2>
+            <p class="text-xl text-white text-center p-3">If you open this demo from laptop, please scan the QR code on
+                this
+                page to continue demo from your
+                smartphone.
+
+                Don't forget to test PWA ( Progressive Web App ) feature by clicking "Add to Home Screen</p>
+            <img class="h-60 mx-auto rounded-3xl mt-5"
+                src="https://img.freepik.com/free-photo/contactless-payment-qr-code-smartphone-screen_53876-98433.jpg?size=626&ext=jpg&ga=GA1.2.821203553.1657130385"
+                alt="">
+
+        </div>
+        <div class="bg-purple-500 flex justify-center align-items-center">
+            <video controls autoplay class="p-3"
+                src="https://v.ftcdn.net/05/00/75/18/700_F_500751803_QQhzVwulv5g0eJC3CeHWPgT7sLTgnv31_ST.mp4"></video>
+        </div>
+    </section>
+    <!-- End of QR section -->
 
 
 

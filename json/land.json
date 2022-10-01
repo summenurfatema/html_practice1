@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "img": "https://img.freepik.com/free-photo/online-ticket-booking_53876-167150.jpg?w=740&t=st=1664544206~exp=1664544806~hmac=d01a3b5c212106535578cd9249a75da86957d7c6047940d37d96c7fbffa50954",
+        "img": "https://img.freepik.com/premium-photo/3d-illustration-young-women-working-together-with-infographic-website-workplace_1302-27146.jpg?w=360",
         "names": "Default"
     },
     {
         "id": 2,
-        "img": "https://img.freepik.com/free-photo/aerial-view-business-team_53876-124515.jpg?w=740&t=st=1664544630~exp=1664545230~hmac=aca65aff5c829067d3ac23c716243859c0fa0f40709143dce7e6efa1bdc2ca6a",
+        "img": "https://img.freepik.com/free-vector/referral-program-flat-background-gifts-number-likes-subscribers-through-referral-system-vector-illustration_1284-75561.jpg?w=360&t=st=1664587216~exp=1664587816~hmac=da63947e2a6f688197d06eb5d920c075ccb2ef085336be3f24bd02dd08c0690d",
         "names": "Mobile apps"
     },
     {
@@ -21,12 +21,27 @@
     },
     {
         "id": 5,
-        "img": "https://as1.ftcdn.net/v2/jpg/03/52/61/26/1000_F_352612638_IQpuCdliAaNufTo7zFEv56gM8R0g60jF.jpg",
+        "img": "https://as2.ftcdn.net/v2/jpg/03/49/36/15/1000_F_349361510_wUt7viG2Y31FIlHejLYqyVWKn2rjSW3E.jpg",
         "names": "Personal"
     },
     {
         "id": 6,
-        "img": "https://as1.ftcdn.net/v2/jpg/03/82/97/16/1000_F_382971610_oDq2yBN5p3tm2etm2YkdSaAFjCX06N9k.jpg",
+        "img": "https://img.freepik.com/free-vector/presentation-business-concept-horizontal-background-with-employees-participated-discussion-with-lector-isometric-vector-illustration_1284-72616.jpg?w=360&t=st=1664587536~exp=1664588136~hmac=7003d30cf29e457119117e2367a050900eae124a2fb6d9899469eb8f62c2b1ed",
         "names": "Onine course"
+    },
+    {
+        "id": 7,
+        "img": "https://as2.ftcdn.net/v2/jpg/03/84/73/39/1000_F_384733960_yFWAFnlsLBTdqKkyPQzTDFAp537BlUsa.jpg",
+        "names": "Coworking"
+    },
+    {
+        "id": 8,
+        "img": "https://img.freepik.com/free-vector/cartoon-web-design-landing-page_52683-70880.jpg?w=740&t=st=1664588110~exp=1664588710~hmac=2329f3518b77ef424d3d5d5806cb86d697e9372bbb5183b96ef1bb086f1d1a55",
+        "names": "Company Portfolio"
+    },
+    {
+        "id": 9,
+        "img": "https://img.freepik.com/free-psd/laptop-desktop-mockup_187299-18820.jpg?w=740&t=st=1664588301~exp=1664588901~hmac=61dcd8e4c876688d4e75f29925308c2c656775d24c1629b62b37b9e4dabea8e8",
+        "names": "Dekstop app"
     }
 ]
