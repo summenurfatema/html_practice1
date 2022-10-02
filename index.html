@@ -27,7 +27,7 @@
 
 <body>
     <!-- Nav section start -->
-    <nav class="flex justify-around bg-purple-500 mb-1 w-full fixed pb-10">
+    <nav class="none sm-none md:flex lg:flex  justify-around bg-purple-500 mb-1 w-full pb-10">
         <!-- logo -->
         <div class="flex pt-10">
             <img class="w-75 h-20 pl-9 mb-2 rounded-xl mr-5"
@@ -40,11 +40,11 @@
 
             <!-- home -->
 
-            <div class="dropdown dropdown-hover relative">
+            <div class="dropdown dropdown-hover relative" id="home">
                 <label tabindex="0" class="bg-purple-500 font-thin mr-16">Home <i
                         class="fa-solid fa-angle-down"></i></label>
                 <div tabindex="0"
-                    class="dropdown-content menu absolute top-10 right-1  mt-10 p-2 shadow bg-base-100 text-black rounded-box grid grid-cols-2"
+                    class="dropdown-content menu absolute top-20 right-1  mt-10 p-2 shadow bg-base-100 text-black rounded-box grid grid-cols-2"
                     style="width:700px;">
                     <ul class="m-2 text-2xl">
                         <h2 class="p-2">Corporate</h2>
@@ -110,20 +110,11 @@
                         class="fa-solid fa-angle-down"></i></label>
                 <div tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
                     <ul class="text-black">
-                        <li>
-                            <div class="dropdown dropdown-right">
-                                <label tabindex="0" class="m-1">Pages</label>
-                                <ul tabindex="1" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                                    <li><a>Item 1</a></li>
-                                    <li><a>Item 2</a></li>
-                                </ul>
-                            </div>
-                    </ul>
-                    </li>
+                        <li>pages</li>
 
 
-                    <li>Blogs</li>
-                    <li>Users</li>
+                        <li>Blogs</li>
+                        <li>Users</li>
                     </ul>
                 </div>
 
@@ -135,7 +126,7 @@
                 <label tabindex="0" class="bg-purple-500 font-thin mr-16">Section<i
                         class="fa-solid fa-angle-down"></i></label>
                 <div tabindex="0"
-                    class="dropdown-content menu absolute top-10 right-6  mt-10 pt-1 shadow bg-base-100 text-black rounded-box grid grid-cols-2"
+                    class="dropdown-content menu absolute top-10 right-7  mt-10 pt-1 shadow bg-base-100 text-black rounded-box grid grid-cols-2"
                     style="width: 1300px;;">
                     <div class="bg-purple-500 p-10 mr-10">
 
@@ -182,13 +173,42 @@
             </div>
 
 
-            <a class="m-2 font-thin mr-16" href="">Docs <i class="fa-solid fa-angle-down"></i></a>
+            <!-- doc -->
+            <div class="dropdown dropdown-hover">
+                <label tabindex="0" class="bg-purple-500 font-thin mr-16">Docs<i
+                        class="fa-solid fa-angle-down"></i></label>
+                <div tabindex="0"
+                    class="dropdown-content menu absolute top-10 right-7  mt-10 pt-1 shadow bg-base-100 text-black rounded-box"
+                    style="width:300px;">
+                    <ul>
+
+                        <li class="p-2 flex flex-row"><i
+                                class="fa-solid fa-puzzle-piece bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>DOCUMENTATION</p>
+                        </li>
+
+                        <li class="p-2 flex flex-row"><i
+                                class="fa-solid fa-puzzle-piece bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>COMPONENTS</p>
+                        </li>
+
+                        <li class="p-2 flex flex-row"><i
+                                class="fa-solid fa-puzzle-piece bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>CHANGELOG</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
             <a class="m-2 font-thin mr-16" href="">Icon <i class="fa-solid fa-angle-down"></i></a>
             <a class="bg-yellow-400 text-black p-3 rounded-xl font-thin" href="./admin/buy.html"> <i
                     class="fa-solid fa-cart-shopping py-5"></i>
                 Buy
                 now</a>
-            <div class="dropdown dropdown-end hidden">
+            <div class="dropdown dropdown-end">
                 <label tabindex="0" class="btn btn-ghost btn-circle avatar btn-lg-hidden">
                     <div class="w-10 rounded-full">
                         <img src="https://placeimg.com/80/80/people" />
@@ -202,7 +222,7 @@
                             <span class="badge">New</span>
                         </a>
                     </li>
-                    <li><a>Settings</a></li>
+                    <li><a href="home">Home</a></li>
                     <li><a>Logout</a></li>
                 </ul>
             </div>
@@ -260,14 +280,15 @@
             persona and business site. <br> All demo page are optimized with <span class="text-purple-600">Google Core
                 Web Vitals.</span></p>
 
-        <div id="card" class="grid grid-cols-3 gap-9">
+        <div id="card"
+            class="grid grid-cols-1 sm:grid sm:grid-cols-1 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 gap-9">
 
         </div>
 
     </section>
     <!-- End of landing page -->
     <!-- Start of QR section -->
-    <section class="flex my-10">
+    <section class="grid grid-cols-1 sm:grid sm:grid-cols-1 md:grid md:grid-cols-1 lg:grid lg:grid-cols-2 my-10">
         <div class="bg-purple-500 w-78 p-3 mr-1">
             <h2 class="text-3xl font-semibold text-white text-center">Try a live demo from your smartphone</h2>
             <p class="text-xl text-white text-center p-3">If you open this demo from laptop, please scan the QR code on
@@ -293,14 +314,14 @@
         <p class="text-3xl font-semibold text-center my-5 border-yellow-300 border-b-4 pb-5">You should try "onekit"
             performance and
             features.</p>
-        <div class="flex align-items-center justify-around my-10">
+        <div class="grid grid-cols-1 sm:grid sm:grid-cols-1 md:grid md:grid-cols-1 lg:grid lg:grid-cols-2">
             <div class="w-96 mr-1 mt-16 ml-16">
-                <img class="rounded-3xl" style="height:300px;width:500px;"
+                <img class="rounded-3xl mb-10 w-60 h-60 md:w-96 md:ml-32"
                     src="https://t4.ftcdn.net/jpg/01/96/91/15/240_F_196911583_7EYHGV89rDXJRrylnVdXJ6N6DjURCuxA.jpg"
                     alt="">
             </div>
 
-            <div style="width:600px;">
+            <div class="p-10">
                 <!-- 1 -->
                 <div class="flex justify-center align-items-center">
 
@@ -348,7 +369,8 @@
 
     <script src="js/land.js"></script>
 </body>
-<footer class="bg-black grid grid-cols-4 text-white p-10">
+<footer
+    class="bg-black sm:grid  grid grid-cols-1 sm:grid-cols-1 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 mx-auto text-white p-10">
     <div class="p-5">
         <h3 class="text-3xl font-bold">About us</h3>
         <p class="text-2xl my-3">Bootstrap template designer, we build web templates, themes and other goodies, putting
@@ -378,39 +400,44 @@
 
     <div class="p-5">
         <h2 class="text-3xl font-bold mb-3">Popular links</h2>
-        <ul class="text-2xl  hover:text-yellow-400">
+        <div class="flex">
 
-            <li class="my-3 text-white hover:text-yellow-400">About us</li>
-            <li class="my-3 text-white hover:text-yellow-400">Contact us
-            <li>
-            <li class="my-3 text-white hover:text-yellow-400">Privacypolicy</li>
-            <li class="my-3 text-white hover:text-yellow-400">Term of use</li>
-            <li class="my-3 text-white hover:text-yellow-400">GDPR</li>
-            <li class="my-3 text-white hover:text-yellow-400">Career</li>
-        </ul>
+            <ul class="text-2xl mr-10  hover:text-yellow-400">
 
+                <li class="my-3 text-white hover:text-yellow-400">About us</li>
+                <li class="my-3 text-white hover:text-yellow-400">Contact us
+                <li>
+                <li class="my-3 text-white hover:text-yellow-400">Privacypolicy</li>
+                <li class="my-3 text-white hover:text-yellow-400">Term of use</li>
+                <li class="my-3 text-white hover:text-yellow-400">GDPR</li>
+                <li class="my-3 text-white hover:text-yellow-400">Career</li>
+            </ul>
+
+
+            <ul class="text-2xl">
+                <li class="my-3 text-white hover:text-yellow-400">Latest post</li>
+                <li class="my-3 text-white hover:text-yellow-400">Popular post</li>
+                <li class="my-3 text-white hover:text-yellow-400">Blogs</li>
+                <li class="my-3 text-white hover:text-yellow-400">Events</li>
+                <li class="my-3 text-white hover:text-yellow-400">Fax</li>
+                <li class="my-3 text-white hover:text-yellow-400">Category</li>
+            </ul>
+
+        </div>
     </div>
-    <ul class="text-2xl mt-14">
-        <li class="my-3 text-white hover:text-yellow-400">Latest post</li>
-        <li class="my-3 text-white hover:text-yellow-400">Popular post</li>
-        <li class="my-3 text-white hover:text-yellow-400">Blogs</li>
-        <li class="my-3 text-white hover:text-yellow-400">Events</li>
-        <li class="my-3 text-white hover:text-yellow-400">Fax</li>
-        <li class="my-3 text-white hover:text-yellow-400">Category</li>
-    </ul>
     <div class="relative">
         <h2 class="text-3xl font-bold my-3">Newsteler</h2>
         <p class="text-2xl my-3">Subscribe to our mailing list to receives daily updates direct to your inbox!</p>
 
         <input type="text" placeholder="Enter email" class="input input-bordered text-black w-full max-w-xs" />
-        <button class="absolute right-24 top-26 bg-yellow-400 text-2xl text-black p-2 rounded-xl">Subscribe</button>
+        <button class="absolute right-0 top-26  bg-yellow-400 text-2xl text-black p-2 rounded-xl">Subscribe</button>
 
-        <div class="flex">
-            <i class="fa-brands fa-facebook fa-3x p-3 hover:text-yellow-400"></i>
-            <i class="fa-brands fa-instagram fa-3x p-3 hover:text-yellow-400"></i>
-            <i class="fa-brands fa-twitter fa-3x p-3 hover:text-yellow-400"></i>
-            <i class="fa-brands fa-youtube fa-3x p-3 hover:text-yellow-400"></i>
-            <i class="fa-brands fa-linkedin fa-3x p-3 hover:text-yellow-400"></i>
+        <div class="flex mt-5">
+            <i class="fa-brands fa-facebook fa-3x p-2 hover:text-yellow-400"></i>
+            <i class="fa-brands fa-instagram fa-3x p-2 hover:text-yellow-400"></i>
+            <i class="fa-brands fa-twitter fa-3x p-2 hover:text-yellow-400"></i>
+            <i class="fa-brands fa-youtube fa-3x p-2 hover:text-yellow-400"></i>
+            <i class="fa-brands fa-linkedin fa-3x p-2 hover:text-yellow-400"></i>
         </div>
 
     </div>
