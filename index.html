@@ -37,18 +37,129 @@
         </div>
         <!-- nav -->
         <div class="font-semibold text-xl mt-16 text-white">
-            <a class="m-2" href="">Home <i class="fa-solid fa-angle-down"></i></a>
-            <div class="dropdown dropdown-hover">
-                <label tabindex="0" class="bg-purple-500 m-1">Pages <i class="fa-solid fa-angle-down"></i></label>
-                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a>Item 1</a></li>
-                    <li><a>Item 2</a></li>
-                </ul>
+
+            <!-- home -->
+
+            <div class="dropdown dropdown-hover relative">
+                <label tabindex="0" class="bg-purple-500 font-thin mr-16">Home <i
+                        class="fa-solid fa-angle-down"></i></label>
+                <div tabindex="0"
+                    class="dropdown-content menu absolute top-10 right-1  mt-10 p-2 shadow bg-base-100 text-black rounded-box grid grid-cols-2"
+                    style="width:700px;">
+                    <ul class="m-2 text-2xl">
+                        <h2 class="p-2">Corporate</h2>
+
+                        <li class="p-2 flex flex-row"><i
+                                class="fa-solid fa-briefcase bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>Agency</p>
+                        </li>
+                        <li class="p-2 flex flex-row"><i
+                                class="fa-solid fa-building bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>Company</p>
+                        </li>
+                        <li class="p-2 flex flex-row"><i
+                                class="fa-solid fa-users bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>Coworking</p>
+                        </li>
+
+                        <li class="p-2 flex flex-row"><i
+                                class="fa-solid fa-television bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>Course</p>
+                        </li>
+                        <li class="p-2 flex flex-row"><i
+                                class="fa-solid fa-images bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>Portfilio</p>
+                        </li>
+                    </ul>
+                    <ul class="text-2xl">
+                        <h2 class="p-2">Apps & others</h2>
+                        <li class="p-2 flex flex-row">
+                            <i class="fa-solid fa-shield bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>Default</p>
+                        </li>
+                        <li class="p-2 flex flex-row"><i
+                                class="fa-solid fa-mobile bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>Mobile App</p>
+                        </li>
+                        <li class="p-2 flex flex-row"><i
+                                class="fa-solid fa-laptop bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>Dekstop App</p>
+                        </li>
+                        <li class="p-2 flex flex-row"><i
+                                class="fa-solid fa-user bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>Personal</p>
+                        </li>
+                        <li class="p-2 flex flex-row"><i
+                                class="fa-solid fa-puzzle-piece bg-purple-500 text-white rounded-2xl p-3"></i>
+                            <p>Event</p>
+                        </li>
+                    </ul>
+                    <p class="text-xl border pl-10" style="width:680px;">Pre-build landing pages for your your personal
+                        and
+                        business site</p>
+                </div>
+
             </div>
-            <a class="m-2" href="">Section <i class="fa-solid fa-angle-down"></i></a>
-            <a class="m-2" href="">Docs <i class="fa-solid fa-angle-down"></i></a>
-            <a class="m-2" href="">Icon <i class="fa-solid fa-angle-down"></i></a>
-            <a class="bg-yellow-400 text-black p-3 rounded-xl" href="./admin/buy.html"> <i
+
+
+
+            <!-- pages -->
+
+            <div class="dropdown dropdown-hover">
+                <label tabindex="0" class="bg-purple-500 font-thin mr-16">Pages<i
+                        class="fa-solid fa-angle-down"></i></label>
+                <div tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                    <ul class="text-black">
+                        <li>
+                            <div class="dropdown dropdown-right">
+                                <label tabindex="0" class="m-1">Pages</label>
+                                <ul tabindex="1" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                                    <li><a>Item 1</a></li>
+                                    <li><a>Item 2</a></li>
+                                </ul>
+                            </div>
+                    </ul>
+                    </li>
+
+
+                    <li>Blogs</li>
+                    <li>Users</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- section -->
+
+            <div class="dropdown dropdown-hover relative">
+                <label tabindex="0" class="bg-purple-500 font-thin mr-16">Section<i
+                        class="fa-solid fa-angle-down"></i></label>
+                <div tabindex="0"
+                    class="dropdown-content menu absolute top-10 right-1  mt-10 p-2 shadow bg-base-100 text-black rounded-box grid grid-cols-2"
+                    style="width:900px;">
+                    <div style="width:350px;" class="bg-purple-500 p-10">
+
+                        <h2 class="text-3xl text-center text-white">Sections</h2>
+                        <p class="text-2xl text-center text-white">Sections for any project</p>
+                        <button class="text-thin p-5 rounded-xl bg-white my-7 ml-16">Overview</button>
+                    </div>
+                    <div class="grid grid-cols-4">
+                        <ul>
+                            <li>a</li>
+                            <li>a</li>
+                            <li>a</li>
+                            <li>a</li>
+                            <li>a</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <a class="m-2 font-thin mr-16" href="">Docs <i class="fa-solid fa-angle-down"></i></a>
+            <a class="m-2 font-thin mr-16" href="">Icon <i class="fa-solid fa-angle-down"></i></a>
+            <a class="bg-yellow-400 text-black p-3 rounded-xl font-thin" href="./admin/buy.html"> <i
                     class="fa-solid fa-cart-shopping py-5"></i>
                 Buy
                 now</a>
@@ -92,6 +203,10 @@
                 class="fa-solid fa-bolt"></i> Test
             Drive</button>
     </div>
+
+
+
+
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#861ce3" fill-opacity="0.75"
@@ -144,8 +259,8 @@
             performance and
             features.</p>
         <div class="flex align-items-center justify-around my-10">
-            <div class="w-96 mr-1 mt-20 ml-16">
-                <img class="rounded-3xl"
+            <div class="w-96 mr-1 mt-16 ml-16">
+                <img class="rounded-3xl" style="height:300px;width:500px;"
                     src="https://t4.ftcdn.net/jpg/01/96/91/15/240_F_196911583_7EYHGV89rDXJRrylnVdXJ6N6DjURCuxA.jpg"
                     alt="">
             </div>
@@ -154,7 +269,7 @@
                 <!-- 1 -->
                 <div class="flex justify-center align-items-center">
 
-                    <img class="w-28"
+                    <img style="height:80px;width:80px;"
                         src="https://t4.ftcdn.net/jpg/01/69/76/43/240_F_169764302_r6NxnTrmXU5YUc5KTkRukeeKexeQJkF1.jpg"
                         alt="">
 
@@ -167,7 +282,7 @@
                 <!-- 2 -->
                 <div class="flex justify-center align-items-center my-7">
 
-                    <img class="w-20"
+                    <img style="height:80px;width:80px;"
                         src="https://img.freepik.com/free-icon/energy_318-846323.jpg?size=338&ext=jpg&ga=GA1.2.821203553.1657130385"
                         alt="">
 
@@ -179,7 +294,7 @@
                 <!-- 3 -->
                 <div class="flex justify-center align-items-center pr-5">
 
-                    <img class="w-28"
+                    <img style="height:80px;width:80px;"
                         src="https://t3.ftcdn.net/jpg/02/94/07/70/240_F_294077048_UMSiW08fyIg7QQqX8nL12Ms9nDH0swgD.jpg"
                         alt="">
 
@@ -194,12 +309,13 @@
         </div>
     </section>
     <!-- End of Rocket section -->
+    <!-- ex -->
 
     <script src="js/land.js"></script>
 </body>
 <footer class="bg-black grid grid-cols-4 text-white p-10">
     <div class="p-5">
-        <h3 class="text-3xl text-center font-bold">About us</h3>
+        <h3 class="text-3xl font-bold">About us</h3>
         <p class="text-2xl my-3">Bootstrap template designer, we build web templates, themes and other goodies, putting
             a lot
             of love in every
@@ -226,7 +342,7 @@
     </div>
 
     <div class="p-5">
-        <h2 class="text-3xl text-center font-bold mb-3">Popular links</h2>
+        <h2 class="text-3xl font-bold mb-3">Popular links</h2>
         <ul class="text-2xl  hover:text-yellow-400">
 
             <li class="my-3 text-white hover:text-yellow-400">About us</li>
@@ -248,18 +364,18 @@
         <li class="my-3 text-white hover:text-yellow-400">Category</li>
     </ul>
     <div class="relative">
-        <h2 class="text-3xl text-center font-bold my-3">Newsteler</h2>
+        <h2 class="text-3xl font-bold my-3">Newsteler</h2>
         <p class="text-2xl my-3">Subscribe to our mailing list to receives daily updates direct to your inbox!</p>
 
         <input type="text" placeholder="Enter email" class="input input-bordered text-black w-full max-w-xs" />
         <button class="absolute right-0 top-26 bg-yellow-400 text-2xl text-black p-2 rounded-xl">Subscribe</button>
 
         <div class="flex">
-            <i class="fa-brands fa-facebook fa-2x p-3 hover:text-yellow-400"></i>
-            <i class="fa-brands fa-instagram fa-2x p-3 hover:text-yellow-400"></i>
-            <i class="fa-brands fa-twitter fa-2x p-3 hover:text-yellow-400"></i>
-            <i class="fa-brands fa-youtube fa-2x p-3 hover:text-yellow-400"></i>
-            <i class="fa-brands fa-linkedin fa-2x p-3 hover:text-yellow-400"></i>
+            <i class="fa-brands fa-facebook fa-3x p-3 hover:text-yellow-400"></i>
+            <i class="fa-brands fa-instagram fa-3x p-3 hover:text-yellow-400"></i>
+            <i class="fa-brands fa-twitter fa-3x p-3 hover:text-yellow-400"></i>
+            <i class="fa-brands fa-youtube fa-3x p-3 hover:text-yellow-400"></i>
+            <i class="fa-brands fa-linkedin fa-3x p-3 hover:text-yellow-400"></i>
         </div>
 
     </div>
