@@ -16,3 +16,10 @@ const showData = (cards) => {
     }
 
 }
+// 
+function menu(e) {
+    let list = document.querySelector("nav")
+    e.name === "open" ? (e.name = "close", list.classList.add("top-[80px]"), list.classList.add("opacity-100"), list.classList.remove("hidden"), list.classList.remove("sm:hidden"), list.classList.remove("md:hidden")) : (e.name = "open", list.classList.remove("top-[80px]"), list.classList.remove("opacity-100"), list.classList.add("hidden"), list.classList.add("sm:hidden"), list.classList.add("md:hidden"))
+
+
+}
